@@ -1,0 +1,45 @@
+/********************************
+Global Section
+********************************/
+.container {
+  width: 85%;
+}
+
+/********************************
+Header Section
+********************************/
+.header {
+  padding-top: 4em;
+  padding-bottom: 15em;
+}
+.header-top {
+  justify-content: space-between;
+}
+
+.header-contact {
+  display: inline-block;
+  width: auto;
+  margin-top: 0;
+
+  a {
+    display: inline-block;
+    color: lighten($orange, 15%);
+    background-color: rgba(18, 66, 98, 0.5);
+    border: 3px solid $blue;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: $blue;
+      color: $white;
+      border-color: $orange;
+    }
+  }
+}
+
+.header-subtitle {
+  font-size: 3em;
+  line-height: normal;
+}
+
+.header-content {
+  margin-top: 120px;
+}
