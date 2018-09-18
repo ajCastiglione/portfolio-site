@@ -1,6 +1,17 @@
 /********************************
 Global Section
 ********************************/
-.container {
-  width: 75%;
+.large-container {
+  width: 80%;
+}
+
+/********************************
+Body Section
+********************************/
+/* portfolio section */
+.portfolio-websites {
+  .website {
+    width: 32%;
+    max-width: 600px;
+  }
 }
