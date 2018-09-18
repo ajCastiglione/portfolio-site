@@ -6,7 +6,7 @@ export default class Header extends Component {
   render() {
     return (
       <header className="header">
-        <div className="header-top container">
+        <div className="header-top large-container">
           <img src={logo} className="logo" alt="logo" />
           <div className="header-contact">
             <Link to="/contact">Get In Touch!</Link>

@@ -1,0 +1,139 @@
+import React, { Component } from "react";
+
+class Body extends Component {
+  render() {
+    const websites = (
+      <React.Fragment>
+        <div className="website">
+          <img
+            src="https://minervawebdevelopment.com/wp-content/uploads/2018/09/vip.jpg"
+            className="website-image"
+            alt="Portfolio Website"
+          />
+          <div className="website-name-link">
+            <h2 className="website-title">VIP Custom Vapors</h2>
+            <a href="https://www.vipcustomvapors.com/">View Project</a>
+          </div>
+        </div>
+        <div className="website">
+          <img
+            src="https://minervawebdevelopment.com/wp-content/uploads/2018/09/crtropical.jpg"
+            className="website-image"
+            alt="Portfolio Website"
+          />
+          <div className="website-name-link">
+            <h2 className="website-title">CR Tropical</h2>
+            <a href="https://crtropical.com/">View Project</a>
+          </div>
+        </div>
+        <div className="website">
+          <img
+            src="https://minervawebdevelopment.com/wp-content/uploads/2018/09/icecream.jpg"
+            className="website-image"
+            alt="Portfolio Website"
+          />
+          <div className="website-name-link">
+            <h2 className="website-title">Main Street Ice Cream</h2>
+            <a href="https://mainstreeticecream.co/">View Project</a>
+          </div>
+        </div>
+        {/* <div className="website">
+          <img
+            src="https://minervawebdevelopment.com/wp-content/uploads/2018/09/reliantcourt.jpg"
+            className="website-image"
+            alt="Portfolio Website"
+          />
+          <div className="website-name-link">
+            <h2 className="website-title">Reliant Court Services</h2>
+            <a href="https://www.reliantcourtservices.com/">View Project</a>
+          </div>
+        </div>
+        <div className="website">
+          <img
+            src="https://minervawebdevelopment.com/wp-content/uploads/2018/09/estatesales.jpg"
+            className="website-image"
+            alt="Portfolio Website"
+          />
+          <div className="website-name-link">
+            <h2 className="website-title">Estate Sales FL</h2>
+            <a href="https://estatesalesfl.net/">View Project</a>
+          </div>
+        </div>
+        <div className="website">
+          <img
+            src="https://minervawebdevelopment.com/wp-content/uploads/2018/09/rentals.jpg"
+            className="website-image"
+            alt="Portfolio Website"
+          />
+          <div className="website-name-link">
+            <h2 className="website-title">Extreme Rentals</h2>
+            <a href="https://www.vailextremerentals.com/">View Project</a>
+          </div>
+        </div> */}
+      </React.Fragment>
+    );
+
+    return (
+      <main className="main clearfix">
+        <section className="section-one intro">
+          <div className="container">
+            <h2>Hello, I'm AJ. Pleased to meet you.</h2>
+            <p>
+              I've been told my work is like no other when it comes to
+              development. I ensure every detail is perfected, and that nothing
+              slips through the cracks. I develop each website by carefully to
+              your liking, and make sure you are completely satisfied with every
+              pixel.
+            </p>
+          </div>
+        </section>
+        <section className="section-two info-boxes">
+          <div className="design-box box-group">
+            <i className="far fa-object-ungroup" />
+            <h2 className="info-box-title">Design</h2>
+            <p>
+              The art of responsive &amp; elegant design is a tricky yet
+              rewarding aspect of this industry.
+            </p>
+            <h3 className="info-box-subtitle">Things I can design:</h3>
+            <p>UX, UI, Websites, Web Apps, Admin Panels, Logos</p>
+          </div>
+          <div className="develop-box box-group">
+            <i className="far fa-file-code" />
+            <h2 className="info-box-title">Development</h2>
+            <p>
+              All of the websites I build are made from scratch or built on
+              existing platforms based on 6 years of experience.
+            </p>
+            <h3 className="info-box-subtitle">
+              Languages / Frameworks I know:
+            </h3>
+            <p>HTML, SCSS, PHP, NodeJS, React, JavaScript, WordPress</p>
+          </div>
+          <div className="market-box box-group">
+            <i className="fab fa-google" />
+            <h2 className="info-box-title">Ad Campaign</h2>
+            <p>
+              My years of experience aid me in running successful ad campaigns
+              for satisfied clients.
+            </p>
+            <h3 className="info-box-subtitle">Google Ads Campaigns:</h3>
+            <p>I manage the campaigns with ROI in mind.</p>
+          </div>
+        </section>
+        <section className="section-three portfolio">
+          <h1 className="portfolio-title">
+            <span>Portfolio</span>
+          </h1>
+          <h3 className="portfolio-subtitle">
+            Below you will find some of the websites I've designed and developed
+          </h3>
+          <article className="portfolio-websites large-container">
+            {websites}
+          </article>
+        </section>
+      </main>
+    );
+  }
+}
+export default Body;
