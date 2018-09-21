@@ -23,10 +23,11 @@ Header Section
 
   a {
     display: inline-block;
-    color: lighten($orange, 15%);
+    color: $white;
     background-color: rgba(18, 66, 98, 0.5);
     border: 3px solid $blue;
     transition: all 0.3s ease-in-out;
+    // animation: color_change infinite 2.5s linear;
     &:hover {
       background-color: $blue;
       color: $white;
@@ -79,4 +80,17 @@ Body Section
       width: 60%;
     }
   }
+}
+
+/********************************
+Footer Section
+********************************/
+
+.input-field {
+  width: 32%;
+  margin: 0 0.5% 10px 0.5%;
+}
+
+.message-field {
+  width: 100%;
 }

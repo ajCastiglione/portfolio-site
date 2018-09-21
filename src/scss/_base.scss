@@ -16,6 +16,10 @@ a {
   text-decoration: none !important;
 }
 
+#invis {
+  display: none;
+}
+
 /********************************
 Header Section
 ********************************/
@@ -84,6 +88,7 @@ Body Section
   background-color: $blue;
   color: $white;
   padding: 6em 0 12em 0;
+  text-align: center;
 
   h2 {
     font-size: 2.4em;
@@ -209,5 +214,59 @@ Body Section
     color: $white;
     font-size: 24px;
     text-transform: capitalize;
+  }
+}
+
+/********************************
+Footer Section
+********************************/
+.bottom-footer {
+  background-color: $blue;
+  padding: 9em 0 5em 0;
+}
+
+.form {
+  max-width: 650px;
+  margin: auto;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-field {
+  background-color: $darkgray;
+  color: $white;
+  border: 2px solid $orange;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  &:active,
+  &:focus {
+    background-color: $blue;
+    border-color: $white;
+  }
+}
+
+.submit-btn {
+  display: inline-block;
+  color: $white;
+  background-color: rgba(247, 148, 30, 0.3);
+  border: 3px solid $white;
+  transition: all 0.3s ease-in-out;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 19px;
+  cursor: pointer;
+  &:hover {
+    background-color: $blue;
+    color: $white;
+    border-color: $orange;
   }
 }
