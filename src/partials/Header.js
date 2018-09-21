@@ -9,7 +9,9 @@ export default class Header extends Component {
         <div className="header-top large-container">
           <img src={logo} className="logo" alt="logo" />
           <div className="header-contact">
-            <Link to="/contact">Get In Touch!</Link>
+            <Link to="/contact" id="contact-btn">
+              Get In Touch!
+            </Link>
           </div>
         </div>
         <div className="header-content">
