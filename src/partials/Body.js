@@ -12,7 +12,13 @@ class Body extends Component {
           />
           <div className="website-name-link">
             <h2 className="website-title">VIP Custom Vapors</h2>
-            <a href="https://www.vipcustomvapors.com/">View Project</a>
+            <a
+              href="https://www.vipcustomvapors.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Project
+            </a>
           </div>
         </div>
         <div className="website">
@@ -23,7 +29,13 @@ class Body extends Component {
           />
           <div className="website-name-link">
             <h2 className="website-title">CR Tropical</h2>
-            <a href="https://crtropical.com/">View Project</a>
+            <a
+              href="https://crtropical.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Project
+            </a>
           </div>
         </div>
         <div className="website">
@@ -34,7 +46,13 @@ class Body extends Component {
           />
           <div className="website-name-link">
             <h2 className="website-title">Main Street Ice Cream</h2>
-            <a href="https://mainstreeticecream.co/">View Project</a>
+            <a
+              href="https://mainstreeticecream.co/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Project
+            </a>
           </div>
         </div>
         {/* <div className="website">
@@ -81,9 +99,8 @@ class Body extends Component {
             <p>
               I've been told my work is like no other when it comes to
               development. I ensure every detail is perfected, and that nothing
-              slips through the cracks. I develop each website by carefully to
-              your liking, and make sure you are completely satisfied with every
-              pixel.
+              slips through the cracks. I develop each website carefully to your
+              liking, and ensure you are completely satisfied with every pixel.
             </p>
           </div>
         </section>
@@ -132,6 +149,7 @@ class Body extends Component {
             {websites}
           </article>
         </section>
+        <iframe name="invis" id="invis" title="invis" />
       </main>
     );
   }
