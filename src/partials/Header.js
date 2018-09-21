@@ -3,6 +3,26 @@ import { Link } from "react-router-dom";
 import logo from "./../logo.png";
 
 export default class Header extends Component {
+  componentDidMount() {
+    let btn = document.querySelector("#contact-btn");
+    btn.addEventListener("mouseenter", this.addHoverClass);
+    btn.addEventListener("mouseleave", this.removeHoverClass);
+  }
+  componentWillUnmount() {
+    document.querySelector("#contact-btn").removeEventListener("hover");
+  }
+
+  addHoverClass = () => {
+    let btn = document.querySelector("#contact-btn");
+    btn.classList.add("pulse");
+    btn.classList.add("animated");
+  };
+  removeHoverClass = () => {
+    let btn = document.querySelector("#contact-btn");
+    btn.classList.remove("animated");
+    btn.classList.remove("pulse");
+  };
+
   render() {
     return (
       <header className="header">
