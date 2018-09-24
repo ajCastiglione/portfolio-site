@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import logo from "./../logo.png";
 
 export default class Header extends Component {
@@ -9,7 +8,8 @@ export default class Header extends Component {
     btn.addEventListener("mouseleave", this.removeHoverClass);
   }
   componentWillUnmount() {
-    document.querySelector("#contact-btn").removeEventListener("hover");
+    document.querySelector("#contact-btn").removeEventListener("mouseenter");
+    document.querySelector("#contact-btn").removeEventListener("mouseleave");
   }
 
   addHoverClass = () => {
@@ -29,9 +29,9 @@ export default class Header extends Component {
         <div className="header-top large-container">
           <img src={logo} className="logo" alt="logo" />
           <div className="header-contact">
-            <Link to="/contact" id="contact-btn">
+            <a href="#contact" id="contact-btn">
               Get In Touch!
-            </Link>
+            </a>
           </div>
         </div>
         <div className="header-content">
