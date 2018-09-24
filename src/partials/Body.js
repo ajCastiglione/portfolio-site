@@ -100,7 +100,8 @@ class Body extends Component {
               I've been told my work is like no other when it comes to
               development. I ensure every detail is perfected, and that nothing
               slips through the cracks. I develop each website carefully to your
-              liking, and ensure you are completely satisfied with every pixel.
+              liking, and the job isn't finished until you are completely
+              satisfied with your new website.
             </p>
           </div>
         </section>
