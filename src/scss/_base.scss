@@ -21,10 +21,10 @@ a {
 }
 
 /********************************
-1 Section
+Header Section
 ********************************/
 .header {
-  padding: 50px 10px 100px 10px;
+  padding: 50px 10px;
   background-image: url("https://minervawebdevelopment.com/wp-content/uploads/2018/09/banner.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -87,7 +87,7 @@ Body Section
 .intro {
   background-color: $blue;
   color: $white;
-  padding: 6em 0 12em 0;
+  padding: 5em 0 10em 0;
   text-align: center;
 
   h2 {
@@ -137,10 +137,13 @@ Body Section
 }
 
 /* portfolio section */
+.portfolio {
+  margin-top: 5em;
+}
+
 .portfolio-title {
   text-align: center;
   font-size: 3em;
-  margin-top: 30px;
   margin-bottom: 20px;
   span {
     position: relative;
