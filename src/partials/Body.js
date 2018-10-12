@@ -4,14 +4,14 @@ class Body extends Component {
   render() {
     const websites = (
       <React.Fragment>
-        <div className="website">
+        <div className="grid-3">
           <img
             src="https://minervawebdevelopment.com/wp-content/uploads/2018/09/vip.jpg"
-            className="website-image"
+            className="responsive-image"
             alt="Portfolio Website"
           />
-          <div className="website-name-link">
-            <h2 className="website-title">VIP Custom Vapors</h2>
+          <div className="grid-name-link">
+            <h2 className="grid-title">VIP Custom Vapors</h2>
             <a
               href="https://www.vipcustomvapors.com/"
               target="_blank"
@@ -21,14 +21,14 @@ class Body extends Component {
             </a>
           </div>
         </div>
-        <div className="website">
+        <div className="grid-3">
           <img
             src="https://minervawebdevelopment.com/wp-content/uploads/2018/09/crtropical.jpg"
-            className="website-image"
+            className="responsive-image"
             alt="Portfolio Website"
           />
-          <div className="website-name-link">
-            <h2 className="website-title">CR Tropical</h2>
+          <div className="grid-name-link">
+            <h2 className="grid-title">CR Tropical</h2>
             <a
               href="https://crtropical.com/"
               target="_blank"
@@ -38,14 +38,14 @@ class Body extends Component {
             </a>
           </div>
         </div>
-        <div className="website">
+        <div className="grid-3">
           <img
             src="https://minervawebdevelopment.com/wp-content/uploads/2018/09/icecream.jpg"
-            className="website-image"
+            className="responsive-image"
             alt="Portfolio Website"
           />
-          <div className="website-name-link">
-            <h2 className="website-title">Main Street Ice Cream</h2>
+          <div className="grid-name-link">
+            <h2 className="grid-title">Main Street Ice Cream</h2>
             <a
               href="https://mainstreeticecream.co/"
               target="_blank"
@@ -55,39 +55,45 @@ class Body extends Component {
             </a>
           </div>
         </div>
-        {/* <div className="website">
+      </React.Fragment>
+    );
+
+    const projects = (
+      <React.Fragment>
+        <div className="grid-3">
           <img
-            src="https://minervawebdevelopment.com/wp-content/uploads/2018/09/reliantcourt.jpg"
-            className="website-image"
-            alt="Portfolio Website"
+            src="https://minervawebdevelopment.com/wp-content/uploads/2018/10/js-typewriter.jpg"
+            className="responsive-image"
+            alt="JS Typewriter"
           />
-          <div className="website-name-link">
-            <h2 className="website-title">Reliant Court Services</h2>
-            <a href="https://www.reliantcourtservices.com/">View Project</a>
+          <div className="grid-name-link">
+            <h2 className="grid-title">JS Typewriter Effect</h2>
+            <a
+              href="https://ajcastiglione.github.io/js-typewriter/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Project
+            </a>
           </div>
         </div>
-        <div className="website">
+        <div className="grid-3">
           <img
-            src="https://minervawebdevelopment.com/wp-content/uploads/2018/09/estatesales.jpg"
-            className="website-image"
-            alt="Portfolio Website"
+            src="https://minervawebdevelopment.com/wp-content/uploads/2018/10/password-generator.jpg"
+            className="responsive-image"
+            alt="Password Generator"
           />
-          <div className="website-name-link">
-            <h2 className="website-title">Estate Sales FL</h2>
-            <a href="https://estatesalesfl.net/">View Project</a>
+          <div className="grid-name-link">
+            <h2 className="grid-title">Password Generator</h2>
+            <a
+              href="https://ajcastiglione.github.io/password-generator/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Project
+            </a>
           </div>
         </div>
-        <div className="website">
-          <img
-            src="https://minervawebdevelopment.com/wp-content/uploads/2018/09/rentals.jpg"
-            className="website-image"
-            alt="Portfolio Website"
-          />
-          <div className="website-name-link">
-            <h2 className="website-title">Extreme Rentals</h2>
-            <a href="https://www.vailextremerentals.com/">View Project</a>
-          </div>
-        </div> */}
       </React.Fragment>
     );
 
@@ -141,12 +147,23 @@ class Body extends Component {
         </section>
         <section className="section-three portfolio">
           <h1 className="portfolio-title">
+            <span>Projects</span>
+          </h1>
+          <h3 className="portfolio-subtitle">
+            Below you will find a couple JavaScript projects
+          </h3>
+          <article className="grid-container large-container">
+            {projects}
+          </article>
+        </section>
+        <section className="section-four portfolio">
+          <h1 className="portfolio-title">
             <span>Portfolio</span>
           </h1>
           <h3 className="portfolio-subtitle">
             Below you will find a few websites I've developed
           </h3>
-          <article className="portfolio-websites large-container">
+          <article className="grid-container large-container">
             {websites}
           </article>
         </section>
