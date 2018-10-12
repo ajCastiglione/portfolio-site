@@ -168,13 +168,13 @@ Body Section
   margin-top: 15px;
 }
 
-.portfolio-websites {
+.grid-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 
-  .website {
+  .grid-3 {
     text-align: center;
     width: 100%;
     padding: 10px 15px;
@@ -182,12 +182,12 @@ Body Section
     position: relative;
   }
 
-  .website-image {
+  .responsive-image {
     width: 100%;
     border: 2px solid $gray;
   }
 
-  .website-name-link {
+  .grid-name-link {
     padding: 25px 0;
     background-color: $blue;
     position: relative;
@@ -212,7 +212,7 @@ Body Section
     }
   }
 
-  .website-title {
+  .grid-title {
     margin-bottom: 15px;
     color: $white;
     font-size: 24px;
