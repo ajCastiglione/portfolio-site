@@ -144,7 +144,7 @@ class Body extends Component {
             <span>Portfolio</span>
           </h1>
           <h3 className="portfolio-subtitle">
-            Below you will find some of the websites I've designed and developed
+            Below you will find a few websites I've developed
           </h3>
           <article className="portfolio-websites large-container">
             {websites}
