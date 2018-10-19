@@ -112,16 +112,6 @@ class Body extends Component {
           </div>
         </section>
         <section className="section-two info-boxes">
-          <div className="design-box box-group">
-            <i className="far fa-object-ungroup" />
-            <h2 className="info-box-title">Design</h2>
-            <p>
-              The art of responsive &amp; elegant design is a tricky yet
-              rewarding aspect of this industry.
-            </p>
-            <h3 className="info-box-subtitle">Things I can design:</h3>
-            <p>UX, UI, Websites, Web Apps, Admin Panels, Logos</p>
-          </div>
           <div className="develop-box box-group">
             <i className="far fa-file-code" />
             <h2 className="info-box-title">Development</h2>
@@ -143,6 +133,16 @@ class Body extends Component {
             </p>
             <h3 className="info-box-subtitle">Google Ads Campaigns:</h3>
             <p>I manage the campaigns with ROI in mind.</p>
+          </div>
+          <div className="design-box box-group">
+            <i className="far fa-object-ungroup" />
+            <h2 className="info-box-title">Design</h2>
+            <p>
+              The art of responsive &amp; elegant design is a tricky yet
+              rewarding aspect of this industry.
+            </p>
+            <h3 className="info-box-subtitle">Things I can design:</h3>
+            <p>UX, UI, Websites, Web Apps, Admin Panels, Logos</p>
           </div>
         </section>
         <section className="section-three portfolio">
