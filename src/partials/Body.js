@@ -55,6 +55,57 @@ class Body extends Component {
             </a>
           </div>
         </div>
+        <div className="grid-3">
+          <img
+            src="https://minervawebdevelopment.com/wp-content/uploads/2018/07/wanderstarr.jpg"
+            className="responsive-image"
+            alt="Portfolio Website"
+          />
+          <div className="grid-name-link">
+            <h2 className="grid-title">Wanderstarr</h2>
+            <a
+              href="https://wanderstarr.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Project
+            </a>
+          </div>
+        </div>
+        <div className="grid-3">
+          <img
+            src="https://minervawebdevelopment.com/wp-content/uploads/2018/11/classiceventsbuffalo.jpg"
+            className="responsive-image"
+            alt="Portfolio Website"
+          />
+          <div className="grid-name-link">
+            <h2 className="grid-title">Classic Events Buffalo</h2>
+            <a
+              href="https://classiceventsbuffalo.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Project
+            </a>
+          </div>
+        </div>
+        <div className="grid-3">
+          <img
+            src="https://minervawebdevelopment.com/wp-content/uploads/2018/11/chrisnaugle.jpg"
+            className="responsive-image"
+            alt="Portfolio Website"
+          />
+          <div className="grid-name-link">
+            <h2 className="grid-title">Chris Naugle</h2>
+            <a
+              href="https://chrisnaugle.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Project
+            </a>
+          </div>
+        </div>
       </React.Fragment>
     );
 
