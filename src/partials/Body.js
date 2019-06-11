@@ -171,19 +171,19 @@ class Body extends Component {
               existing platforms based on 6 years of experience.
             </p>
             <h3 className="info-box-subtitle">
-              Languages / Frameworks I know:
+              Languages &amp; Frameworks I Use:
             </h3>
             <p>HTML, SCSS, PHP, NodeJS, React, JavaScript, WordPress</p>
           </div>
           <div className="market-box box-group">
-            <i className="fab fa-google" />
-            <h2 className="info-box-title">Ad Campaign</h2>
+            <i class="fas fa-tasks" />
+            <h2 className="info-box-title">Project Management</h2>
             <p>
-              My years of experience aid me in running successful ad campaigns
-              for satisfied clients.
+              Being a solo-developer, I have to manage multiple projects at a
+              time while adhearing to deadlines.
             </p>
-            <h3 className="info-box-subtitle">Google Ads Campaigns:</h3>
-            <p>I manage the campaigns with ROI in mind.</p>
+            <h3 className="info-box-subtitle">Management:</h3>
+            <p>Ensuring projects get delivered on time.</p>
           </div>
           <div className="design-box box-group">
             <i className="far fa-object-ungroup" />
@@ -192,7 +192,7 @@ class Body extends Component {
               The art of responsive &amp; elegant design is a tricky yet
               rewarding aspect of this industry.
             </p>
-            <h3 className="info-box-subtitle">Things I can design:</h3>
+            <h3 className="info-box-subtitle">What I Can Design:</h3>
             <p>UX, UI, Websites, Web Apps, Admin Panels, Logos</p>
           </div>
         </section>
